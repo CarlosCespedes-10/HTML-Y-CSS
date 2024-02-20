@@ -1,0 +1,43 @@
+$colors : black;
+$aling : center;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: $aling;
+    align-items: $aling;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    text-align: $aling;
+    background-color: antiquewhite;
+}
+
+.sitios {
+    text-align: left;
+}
+
+.sitios h1 {
+    color: $colors; 
+    font-size: 1.5em;
+}
+
+.sitios p {
+    color: $colors; 
+    font-size: 1em; 
+}
+
+.sitios img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+.titulito{
+    margin-bottom: 2%;
+}
